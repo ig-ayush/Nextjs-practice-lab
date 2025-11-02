@@ -1,5 +1,8 @@
 export default function Home() {
   return (
-    <h1>Hello coders</h1>
+    <div className="container">
+      <h1 className="text-2xl">Hello coders</h1>
+      <h2>Lets learn Next.jS</h2>
+    </div>
   );
 }

@@ -2,10 +2,14 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <div className="container flex items-center flex-col">
-      <h1 className="text-2xl">Hello coders</h1>
-      <h2>Lets learn Next.jS</h2>
-      <Link href="/user">user page</Link>
+    <>
+    <div id="navbar" className='w-full h-[70px] bg-amber-500 pl-10 flex items-center'>
+      <h1 id="logo" className='text-4xl font-bold'>ig-ayush</h1>
     </div>
+      <div className='w-full  flex flex-col justify-center items-center text-2xl p-5'>
+          <h1>Hello coder</h1>
+          <h2>Get started in Next.js</h2>
+      </div>
+    </>
   );
 }

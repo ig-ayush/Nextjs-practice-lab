@@ -2,8 +2,11 @@ import React from 'react'
 
 const NextPage = () => {
   return (
-    <div>NextPage
-    </div>
+    <>
+      <div>
+        <h1>User Page</h1>
+      </div>
+    </>
   )
 }
 

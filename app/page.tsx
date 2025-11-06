@@ -8,7 +8,8 @@ export default function Home() {
     </div>
       <div className='w-full  flex flex-col justify-center items-center text-2xl p-5'>
           <h1>Hello coder</h1>
-          <h2>Get started in Next.js</h2>
+          <h2>Get started in Next.js Framework</h2>
+          <Link href={"/user"}>user-page</Link>
       </div>
     </>
   );

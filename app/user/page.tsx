@@ -5,6 +5,7 @@ const NextPage = () => {
     <>
       <div>
         <h1>User Page</h1>
+        <h2>Redirecter to user Page</h2>
       </div>
     </>
   )
